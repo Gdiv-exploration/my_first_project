@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Styles for the tic tac toe board */
+      .board {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        background: linear-gradient(to bottom, #f7ff00, #db36a4);
+      }
+      
+      /* Styles for the individual squares on the board */
+      .square {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        font-weight: bold;
+        cursor: pointer;
+        border: 1px solid white;
+        background-color: #fff;
+      }
+      
+      /* Styles for the X and O symbols */
+      .x {
+        color: #1f1f1f;
+      }
+      
+      .o {
+        color: #1f1f1f;
+      }
+      /* Style for the winner */
+      .winner {
+        background-color: #4CAF50;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="board">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+    
+    <script>
+      // JavaScript logic to handle the game play
+      const squares = document.querySelectorAll('.square');
+      let player = 'X';
+      
+      for (const square of squares) {
+        square.addEventListener('click', function(event) {
+          if (square.textContent === '') {
+            square.textContent = player;
+            if (player === 'X') {
+              square.classList.add('x');
+              player = 'O';
+            } else {
+              square.classList.add('o');
+              player = 'X';
+            }
+            checkForWin();
+          }
+        });
+      }
+     

@@ -1,0 +1,22 @@
+#gp{
+    border: 2px solid red;
+    height: 600px;
+    width: 600px;
+    margin: auto;    
+}
+#pt{
+    border: 2px solid blue;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+}
+#cd{
+    border: 2px solid goldenrod;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-top: 60px;
+    
+}

@@ -1,0 +1,157 @@
+
+.main{
+    height: 700px;
+    border: solid 1px;
+    /* background-color:yellowgreen; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(./images/GoogleMapTA.jpg);
+
+} 
+#a{
+    height: 300px;
+    width: 225px;
+    border: solid 2px ;
+    background-image: url(/javascript/images/bike.jfif);
+    /* //border: solid 5px black; */
+    background-size:cover;
+    background-repeat: no-repeat;
+
+} 
+#user{
+    margin-top: 300px;
+    border: 3px solid black;
+}
+#head1{
+    margin-top: -80px;
+    margin-left: 200px;
+
+}
+#but1{
+    margin-top: 5px;
+    /* border: 3px solid black; */
+}
+
+#b{
+    height: 300px;
+    width: 225px;
+    border: solid 2px;
+    background-image: url(/javascript/images/car.webp);
+    /* border: solid 5px black; */
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#pass{
+    margin-top: 300px;
+    border: 3px solid black;
+    
+}
+#head2{
+    margin-top: -45px;
+    margin-left: 650px;
+
+}
+#but2{
+    margin-top: 5px;
+    /* border: 3px solid black; */
+}
+
+#c{
+    height: 300px;
+    width: 225px;
+    border: solid 2px ;
+    background-image: url(/javascript/images/auto.jpg);
+    /* border: solid 5px black; */
+    background-size:cover;
+    background-repeat: no-repeat;
+
+} 
+#out{
+    margin-top: 300px;
+    border: 3px solid black;
+   
+}
+#head3{
+    margin-top: -30px;
+    margin-left: 1100px;
+
+}
+#but3{
+    margin-top: 5px;
+    /* border: 3px solid black; */
+}
+
+
+#logo{
+    height: 50px;
+    width: 220px;
+    margin-left: -1300px;
+    margin-top: 1px;
+    object-fit:scale-down;
+}
+#logo:hover{
+        
+    animation: rotateHue 2s alternate infinite;  
+}
+@keyframes rotateHue {
+    to{
+        filter: hue-rotate(2turn);
+    }
+    
+}
+
+#a1{
+    display: flex;
+    margin-left: 900px;
+}
+#search{
+    margin-left: -1250px;
+    width: 250px;
+    height:fit-content;
+    margin-top: 10px;
+   
+}
+#searchlogo{
+   
+    margin-left: 5px;
+   font-size: 28px;
+   color: red;
+   padding-top: -10px;
+
+}
+#translatelogo{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#navbar{
+   background-color:rgb(50, 47, 47);
+   margin-top: -100px;
+   display: flex;
+
+} 
+
+
+#signin{
+    background-color:rgb(50, 47, 47);
+    color: white;
+    border-color: rgb(50, 47, 47);
+    margin-left: 20px;
+}
+#ms{
+    color: white;
+    margin-left: -80px;
+}
+#pod{
+    color: white;
+    margin-left: 25px;
+}
+#down{
+    color: white;
+}
+#page1{
+    height: 100px;
+    margin-top: 10px;
+
+}
