@@ -1,0 +1,53 @@
+#container{
+    text-align: center;
+}
+table{
+    margin: auto;
+    margin-top: 4px;
+   
+}
+input{
+    font-size: 26px;
+    border: solid 3px black;
+    border-radius: 20px; 
+    text-align: center;
+
+}
+button{
+    background-color: blanchedalmond;
+    height: 75px;
+    width: 75px;
+    border-radius: 35%;
+    box-shadow: 2px,2px,2px;
+}
+button:hover{
+    /* height: 78px;
+    width: 78px; */
+    transition: 250ms;
+    font-size: 25px;
+    background-color: chartreuse;
+    filter: drop-shadow(3px 3px 3px);
+   
+}
+#subcont{
+    background-color: cadetblue;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid black;
+
+}
+body{
+    background-color: lightgray;
+}
+marquee{
+    color: red;   
+    margin-top: 10px; 
+}
+h1:hover{
+    transition: 1000ms;
+    filter: drop-shadow(2px 2px 2px);
+}
+
+
+
